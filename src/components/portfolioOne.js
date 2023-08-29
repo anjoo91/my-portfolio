@@ -14,25 +14,27 @@ export default function PortfolioOne() {
     // For Lightbox
     const [lightboxController, setLightboxController] = useState({
         toggler: false,
-        slide: 1
+        slide: 0
     });
 
     function openLightboxOnSlide(index) {
         setLightboxController({
-            toggler: !lightboxController.toggler,
-            slide: index + 1 // increment index by 1 to match slide numbering
+          toggler: !lightboxController.toggler,
+          slide: index // set the index directly
         });
     }
 
     const projects = [
         {
-            title: "Brickbreaker Game",
-            subTitle: "WebApp, Game Design",
-            img: "assets/img/project-1.jpg",
+            title: "Generative AI Python Web App - In Progress",
+            subTitle: "Web App, AI Integration, App Design",
+            img: ["assets/img/project5/work-in-progress.jpg",
+                
+                ],
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             type: "Website",
-            languages: "HTML, CSS, JS",
+            languages: "HTML, CSS, Python, Django, TensorFlow, AWS S3, JWT",
             platform: "GitHub Pages",
             country: "USA",
             liveURL: "www.demo.com"
@@ -40,41 +42,51 @@ export default function PortfolioOne() {
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
-            img: "assets/img/project-2.jpg",
-            desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            title: "Wanderlust Travel Planner",
+            subTitle: "Web App, App Design, Group Project",
+            img: ["assets/img/project4/landing_page.PNG",
+                "assets/img/project4/trips_index_page.PNG",
+                "assets/img/project4/destinations_index_page.PNG",
+                "assets/img/project4/destinations_detail_page.PNG",
+                ],
+            desc1: "A comprehensive travel planning app that assists users in organizing their upcoming trips by leveraging real-time data and photos.",
+            desc2: "The app offers robust user authentication and role-based permissions, allowing users to create trips, add destinations, and invite friends. It enhances user experience by providing features like viewing invites, seeing fellow trip-goers, creating to-do lists, uploading pictures, and offering insights on nearby places, upcoming trips, and countdowns to start dates.",
             type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
+            languages: "HTML, CSS, MaterializeCSS, Python, Django, Google Maps API, Google Places API, AJAX, SQLite3, AWS S3, JWT, Fly.io",
+            platform: "Fly.io",
             country: "USA",
-            liveURL: "www.example.com"
+            liveURL: "https://ancient-voice-480.fly.dev/"
 
 
         },
         {
-            title: "Website Design for Marketing Agency Startup",
-            subTitle: "Mobile App, App Design",
-            img: "assets/img/project-3.jpg",
-            desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            title: "Ecommerce Website",
+            subTitle: "Web App, App Design",
+            img: ["assets/img/project3/landing_page.png",
+                "assets/img/project3/product_index_page.png",
+                "assets/img/project3/product_create_page.png",
+                "assets/img/project3/shopping_cart_page.png",],
+            desc1: "This is a SPA (single-page-application) E-Commerce store example built off of Mongoose (MongoDB), Express.js, React.js, and Node.js. AWS S3 is used for hosting image files and JWT is used for authentication.",
+            desc2: "This app features secure user authentication, admin-level controls for product management, and a user-friendly interface that includes a rotating banner, product browsing, cart functionalities, a simulated checkout process, and an order history with status tracking.",
             type: "Website",
-            languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
+            languages: "HTML, CSS, JavaScript, NodeJS, Express, MongoDB, Mongoose, AWS S3, JWT, render.com",
+            platform: "render.com",
             country: "USA",
-            liveURL: "www.xyz.com"
+            liveURL: "https://ontime-watch-store.onrender.com/"
 
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
-            img: "assets/img/project-4.jpg",
-            desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            title: "Recipe Sharing App",
+            subTitle: "Web App, App Design",
+            img: ["assets/img/project2/landing_page.png",
+                "assets/img/project2/recipe_index_page.png",
+                "assets/img/project2/recipe_detail_page.png",
+                "assets/img/project2/question_page.png",],
+            desc1: "A webapp designed for sharing recipes with other people.",
+            desc2: "It allows you to create, read, update, and delete recipes, depending on whether you are the author of the recipe. Recipes allow you to share ingredients, instructions, and a URL to images. You must first log in with Google to utilize the create, update, and delete functions. Read functionality does not require logging in. You may also ask questions on each recipe. You can also edit or delete your questions after creating them. The author of the recipe can provide their answers to these questions. You can also leave a review. Similar to the questions, you can also edit or delete your review after you've created it.",
             type: "Website",
-            languages: "PHP, HTML, CSS, JS",
+            languages: "HTML, CSS, JS, Express, MongoDB, Mongoose, AWS S3, Passport, Google OAuth, Cyclic",
             platform: "Wordpress",
             country: "USA",
             liveURL: "www.mysite.com"
@@ -85,7 +97,11 @@ export default function PortfolioOne() {
         {
             title: "BrickBreaker Game",
             subTitle: "Web App, Game Design",
-            img: "assets/img/project-5.jpg",
+            img: ["assets/img/project1/landing_page.png",
+                "assets/img/project1/game_page.png",
+                "assets/img/project1/game_win.png",
+                "assets/img/project1/player_scores.png",
+                ],
             desc1: "A classic brick-breaking game built with HTML, CSS, & Javascript.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             type: "Website",
@@ -100,7 +116,9 @@ export default function PortfolioOne() {
         {
             title: "Mobile app design",
             subTitle: "Mobile App, App Design",
-            img: "assets/img/project-6.jpg",
+            img: ["assets/img/project5/work-in-progress.jpg",
+                
+                ],
             desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             type: "Website",
@@ -131,9 +149,8 @@ export default function PortfolioOne() {
                                         <p>{data.subTitle}</p>
                                         <a onClick={() => openLightboxOnSlide(index)} className="gallery-link" href="#project_1" ><i className="bi-arrow-up-right-circle" /></a>
                                     </div>
-                                    <div className="portfolio-img">
-                                        <img src={data.img} />
-
+                                    <div className="portfolio-img" style={{height: '200px', width:'100%'}}>
+                                      <img src={Array.isArray(data.img) ? data.img[0] : data.img} style={{ width: '100%', height: 'auto' }} />
                                         <a onClick={() => toggleModalOne(data)} className="px_modal portfolio-modal-link" href="#project_1">
                                             <i className="fa fa-plus"></i>
                                         </a>
@@ -143,14 +160,14 @@ export default function PortfolioOne() {
                         ))}
                         <FsLightbox
                             toggler={lightboxController.toggler}
-                            sources={projects.map((data) => data.img)}
-                            slide={lightboxController.slide}
+                            sources={projects[lightboxController.slide - 1]?.img || []}
+                            slide={1}
                         />
                     </div>
                     {modalContent && (
                         <Modal
                             isOpen={isOpen1}
-                            onRequestClose={toggleModalOne}
+                            onRequestClose={() => toggleModalOne()}
                             closeTimeoutMS={300}
                             openTimeoutMS={300}
                         >
@@ -160,18 +177,11 @@ export default function PortfolioOne() {
                                         <button onClick={toggleModalOne} title="Close (Esc)" type="button" className="mfp-close">×</button>
                                         <div className="col-lg-7">
                                             <div className="row g-2">
-                                                <div className="col-6">
-                                                    <img className="border" src={modalContent.img} alt="title" />
-                                                </div>
-                                                <div className="col-6">
-                                                    <img className="border" src={modalContent.img} alt="title" />
-                                                </div>
-                                                <div className="col-6">
-                                                    <img className="border" src={modalContent.img} alt="title" />
-                                                </div>
-                                                <div className="col-6">
-                                                    <img className="border" src={modalContent.img} alt="title" />
-                                                </div>
+                                                {modalContent.img && modalContent.img.map((img, index) => (
+                                                    <div className="col-6" key={index}>
+                                                        <img className="border" src={img} alt="title" />
+                                                    </div>
+                                                ))}
                                             </div>
                                         </div>
                                         <div className="col-lg-5 pt-4 pt-lg-0">
