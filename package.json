@@ -1,22 +1,26 @@
 {
-  "name": "my-portfolio",
+  "name": "tapsi-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
   },
   "dependencies": {
-    "@types/node": "20.5.7",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
+    "fslightbox-react": "^1.7.4",
+    "next": "13.3.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "react-modal": "^3.16.1",
+    "sass": "^1.62.1",
+    "swiper": "^9.2.4",
+    "typeit-react": "^2.6.4"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.2"
   }
 }
