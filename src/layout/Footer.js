@@ -10,7 +10,7 @@ export default function Footer() {
                         <div className="footer-avatar">
                             <img src="assets/img/personal/Logo.PNG" alt="footer-logo" />
                         </div>
-                        <h6>Andrew Lew</h6>
+                        <h6>Let's Keep In Touch</h6>
                     </div>
                     <ul className="nav social-link">
                         <li>
