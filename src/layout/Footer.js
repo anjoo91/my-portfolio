@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-info">
                         <div className="footer-avatar">
-                            <img src="assets/img/mask.jpg" alt="title" />
+                            <img src="assets/img/personal/Logo.PNG" alt="footer-logo" />
                         </div>
                         <h6>Andrew Lew</h6>
                     </div>
