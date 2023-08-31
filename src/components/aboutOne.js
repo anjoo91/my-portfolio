@@ -105,7 +105,7 @@ export default function AboutOne() {
                               <i className="fa-solid fa-file-pdf" />
                             </div>
                             <div className="a-text">
-                              <a className="text-reset stretched-link" href="https://drive.google.com/file/d/1vDpnvYRJcrq722W4tzQFdgr9qb6Lbu1k/view?usp=drive_link">Resume</a>
+                              <a className="text-reset stretched-link" href="https://drive.google.com/file/d/1vDpnvYRJcrq722W4tzQFdgr9qb6Lbu1k/view?usp=drive_link">See My Resume</a>
                             </div>
                           </li>
                         </ul>
