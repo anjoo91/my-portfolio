@@ -11,7 +11,7 @@ export default function Footer() {
                         <div className="footer-avatar">
                             <Image src="/assets/img/personal/Logo.PNG" alt="footer-logo" width={200} height={200} />
                         </div>
-                        <h6>Let's Keep In Touch</h6>
+                        <h6>Let{"'"}s Keep In Touch</h6>
                     </div>
                     <ul className="nav social-link">
                         <li>
