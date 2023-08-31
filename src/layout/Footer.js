@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="footer-info">
                         <div className="footer-avatar">
-                            <img src="assets/img/personal/Logo.PNG" alt="footer-logo" />
+                            <Image src="/assets/img/personal/Logo.PNG" alt="footer-logo" width={200} height={200} />
                         </div>
                         <h6>Let's Keep In Touch</h6>
                     </div>
