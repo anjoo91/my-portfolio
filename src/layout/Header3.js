@@ -5,9 +5,10 @@ export default function Header3({switcherBtn}) {
     useEffect(() => {
         window.addEventListener("scroll", stickyNav);
         window.addEventListener("scroll", scroll_);
+        // default theme is dark
         document.querySelector("html").setAttribute("data-bs-theme", "dark");
     });
-    
+
     const [openMenu, setOpenMenu] = useState(false)
     const [dropdownShow, setDropdownShow] = useState(false)
     const Switcher = (style) => {
