@@ -27,7 +27,7 @@ export default function PortfolioOne() {
     const projects = [
         {
             title: "WebNLP",
-            subTitle: "Web App, AI Integration, App Design",
+            subTitle: "Web App, NLP Integration, Data Science, App Design",
             img: ["assets/img/django-nlp/home.PNG",
                 "assets/img/django-nlp/regex.PNG",
                 "assets/img/django-nlp/lemma.PNG",
