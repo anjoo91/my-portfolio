@@ -31,7 +31,7 @@ export default function HomeThree() {
                       <a href="https://www.linkedin.com/in/andrewlew91/"><i className="fab fa-linkedin-in" /></a>
                     </li>
                     <li>
-                      <a href="andrew.w.lew@gmail.com"><i className="fa fa-envelope" /></a>
+                      <a href="mailto: andrew.w.lew@gmail.com"><i className="fa fa-envelope" /></a>
                     </li>
                     <li>
                       <a href="https://drive.google.com/file/d/1vDpnvYRJcrq722W4tzQFdgr9qb6Lbu1k/view?usp=drive_link"><i className="fa-solid fa-file-pdf" /></a>

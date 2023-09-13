@@ -89,7 +89,7 @@ export default function AboutOne() {
                               <i className="fa fa-envelope" />
                             </div>
                             <div className="a-text">
-                              <a className="text-reset stretched-link" href="andrew.w.lew@gmail.com">Email Me</a>
+                              <a className="text-reset stretched-link" href="mailto: andrew.w.lew@gmail.com">Email Me</a>
                             </div>
                           </li>
                           <li>
