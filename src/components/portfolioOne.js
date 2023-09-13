@@ -26,18 +26,21 @@ export default function PortfolioOne() {
 
     const projects = [
         {
-            title: "Generative AI Python Web App - In Progress",
+            title: "WebNLP",
             subTitle: "Web App, AI Integration, App Design",
-            img: ["assets/img/project5/work-in-progress.jpg",
-                
+            img: ["assets/img/django-nlp/home.PNG",
+                "assets/img/django-nlp/regex.PNG",
+                "assets/img/django-nlp/lemma.PNG",
+                "assets/img/django-nlp/pos.PNG",
+                "assets/img/django-nlp/ner.PNG",
                 ],
-            desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            desc1: "This project integrates Natural Language Processing (NLP) with web development using Django.",
+            desc2: "It provides a web interface to perform various NLP tasks such as Regular Expressions, Lemmatization, Part of Speech Tagging, and Named Entity Recognition.",
             type: "Website",
-            languages: "HTML, CSS, Python, Django, TensorFlow, AWS S3, JWT",
-            platform: "GitHub Pages",
+            languages: "HTML, Bootstrap CSS, Python, Django, spaCy, NLP, Heroku",
+            platform: "Heroku",
             country: "USA",
-            liveURL: "www.demo.com"
+            liveURL: "https://django-nlp-fdc565844cf0.herokuapp.com/"
 
 
         },
