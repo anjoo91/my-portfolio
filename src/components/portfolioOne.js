@@ -63,8 +63,8 @@ export default function PortfolioOne() {
 
         },
         {
-            title: "Ecommerce Website",
-            subTitle: "Web App, App Design",
+            title: "OnTime Watch Store Website",
+            subTitle: "Web App, App Design, ECommerce",
             img: ["assets/img/project3/landing_page.png",
                 "assets/img/project3/product_index_page.png",
                 "assets/img/project3/product_create_page.png",
@@ -80,7 +80,7 @@ export default function PortfolioOne() {
 
         },
         {
-            title: "Recipe Sharing App",
+            title: "Virtual PotLuck",
             subTitle: "Web App, App Design",
             img: ["assets/img/project2/landing_page.png",
                 "assets/img/project2/recipe_index_page.png",
