@@ -117,8 +117,8 @@ export default function PortfolioOne() {
 
         },
         {
-            title: "Mobile app design",
-            subTitle: "Mobile App, App Design",
+            title: "Django Bank App",
+            subTitle: "Webb App, App Design",
             img: ["assets/img/project5/work-in-progress.jpg",
                 
                 ],
@@ -126,7 +126,7 @@ export default function PortfolioOne() {
             desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             type: "Website",
             languages: "PHP, HTML, CSS, JS",
-            platform: "Wordpress",
+            platform: "Heroku",
             country: "USA",
             liveURL: "www.realsite.com"
 
