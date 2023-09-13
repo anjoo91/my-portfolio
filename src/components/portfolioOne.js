@@ -118,7 +118,7 @@ export default function PortfolioOne() {
         },
         {
             title: "Django Bank App",
-            subTitle: "Webb App, App Design",
+            subTitle: "Web App, App Design",
             img: ["assets/img/project5/work-in-progress.jpg",
                 
                 ],
