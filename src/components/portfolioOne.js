@@ -90,9 +90,9 @@ export default function PortfolioOne() {
             desc2: "It allows you to create, read, update, and delete recipes, depending on whether you are the author of the recipe. Recipes allow you to share ingredients, instructions, and a URL to images. You must first log in with Google to utilize the create, update, and delete functions. Read functionality does not require logging in. You may also ask questions on each recipe. You can also edit or delete your questions after creating them. The author of the recipe can provide their answers to these questions. You can also leave a review. Similar to the questions, you can also edit or delete your review after you've created it.",
             type: "Website",
             languages: "HTML, CSS, JS, Express, MongoDB, Mongoose, AWS S3, Passport, Google OAuth, Cyclic",
-            platform: "Wordpress",
+            platform: "Cyclic",
             country: "USA",
-            liveURL: "www.mysite.com"
+            liveURL: "https://faithful-blue-poncho.cyclic.app/"
 
 
 
