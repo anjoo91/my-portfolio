@@ -150,7 +150,7 @@ export default function PortfolioOne() {
                                     <div className="portfolio-text">
                                         <h6>{data.title}</h6>
                                         <p>{data.subTitle}</p>
-                                        <a onClick={() => openLightboxOnSlide(index)} className="gallery-link" href="#project_1" ><i className="bi-arrow-up-right-circle" /></a>
+                                        <a onClick={() => openLightboxOnSlide(index)} className="gallery-link" href={data.liveURL} target="_blank" re="noopener noreferrer"><i className="bi-arrow-up-right-circle" /></a>
                                     </div>
                                     <div className="portfolio-img" style={{height: '200px', width:'100%'}}>
                                       <img src={Array.isArray(data.img) ? data.img[0] : data.img} style={{ width: '100%', height: 'auto' }} />
