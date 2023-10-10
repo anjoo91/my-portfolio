@@ -70,7 +70,7 @@ export default function AboutOne() {
                   <div className="row align-items-start">
                     <div className="col-md-7 py-4">
                       <div className="about-me-img">
-                        <img src="assets/img/personal/japan_cropped.jpg" alt="japan_avatar" />
+                        <img src="assets/img/personal/japan_shirt_me.jpg" alt="japan_avatar" />
                       </div>
                     </div>
                     <div className="col-md-5 py-4">
