@@ -163,7 +163,7 @@ export default function PortfolioOne() {
                         ))}
                         <FsLightbox
                             toggler={lightboxController.toggler}
-                            sources={projects[lightboxController.slide - 1]?.img || []}
+                            sources={projects[lightboxController.slide]?.img || []}
                             slide={1}
                         />
                     </div>
