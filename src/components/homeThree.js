@@ -17,7 +17,7 @@ export default function HomeThree() {
               <div className="col-lg-6">
                 <div className="home-image">
                   <div className="home-image-in">
-                    <img src="assets/img/personal/avatar_me.jpg" alt="avatar" />
+                    <img src="assets/img/personal/avatar_me.jpeg" alt="avatar" />
                   </div>
                 </div>
                 <div className="home-intro">
