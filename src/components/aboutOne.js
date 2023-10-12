@@ -17,7 +17,7 @@ export default function AboutOne() {
                   <div className="about-me-text pb-5">
                     <h3>My Name Is Andrew Lew</h3>
                     <h5><span>I Am Available</span> For Software Development & Data Science Positions & Projects</h5>
-                    <p>Born in 1991, living in USA. I provide database design for websites and apps, as well as front and back-end implementation.</p>
+                    <p>Born in 1991, living in USA. I provide database design for websites and apps, data analytics, as well as front and back-end implementation.</p>
                     <div className="row pt-2">
                       <div className="col-auto">
                         <div className="a-count">
