@@ -26,7 +26,7 @@ export default function Footer() {
                             <a href="#"><i className="fab fa-pinterest" /></a>
                         </li>
                     </ul>
-                    <p className="copyright">© 2023 copyright all right reserved</p>
+                    <p className="copyright">© 2023 copyright all rights reserved</p>
                 </div>
             </div>
             {/* End Footer */}
