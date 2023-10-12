@@ -27,7 +27,7 @@ export default function AboutOne() {
                       </div>
                       <div className="col-auto">
                         <div className="a-count">
-                          <span className="count">2</span>
+                          <span className="count">1</span>
                           <div className="a-count-text">Projects <br />In Progress.</div>
                         </div>
                       </div>
