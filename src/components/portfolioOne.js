@@ -122,8 +122,8 @@ export default function PortfolioOne() {
             img: ["assets/img/project5/work-in-progress.jpg",
                 
                 ],
-            desc1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            desc2: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            desc1: "Full featured banking application that allows users to send money securely.",
+            desc2: "Comes with a custom admin console with management, security, analytics and reporting features.",
             type: "Website",
             languages: "Python, Django, HTML, CSS, JS, JQuery, Bootstrap, SQLite3, Heroku",
             platform: "Heroku",
