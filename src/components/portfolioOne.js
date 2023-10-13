@@ -123,7 +123,7 @@ export default function PortfolioOne() {
                 
                 ],
             desc1: "Full featured banking application that allows users to send money securely.",
-            desc2: "Comes with a custom admin console with management, security, analytics and reporting features.",
+            desc2: "Comes with a custom admin console that includes a suite of management, security, analytics and reporting features.",
             type: "Website",
             languages: "Python, Django, HTML, CSS, JS, JQuery, Bootstrap, SQLite3, Heroku",
             platform: "Heroku",
