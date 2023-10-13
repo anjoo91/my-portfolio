@@ -27,7 +27,7 @@ export default function Footer() {
                             <a href="https://drive.google.com/file/d/1vDpnvYRJcrq722W4tzQFdgr9qb6Lbu1k/view?usp=drive_link"><i className="fa-solid fa-file-pdf" /></a>
                         </li>
                     </ul>
-                    <p className="copyright">© 2023 copyright all right reserved</p>
+                    <p className="copyright">© 2023 copyright all rights reserved</p>
                 </div>
             </div>
             {/* End Footer */}
